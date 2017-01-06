@@ -12,7 +12,7 @@ body {
 	border: 0;
 }
 #logo-img {
-	background: url(/images/rsz_fox1.png) no-repeat;
+	background: url(/images/fox1.png) no-repeat;
 	width: 108px;
 	height: 70px;
 	margin: 10px 15px 10px 0;
@@ -253,7 +253,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.jumbotron {
-		background: url(/images/rsz_013.jpg);
+		background: url(/images/013.jpg);
 		height: 675px;
 		box-shadow: 0 0 50px #ffbb33;
 		border: 2px solid #ffbb33;
@@ -270,7 +270,7 @@ h3.menu-item-title {
     margin: 5px 5px 5px 0;*/
   }
   .jumbotron {
-		background: url(/images/rsz_013.jpg) no-repeat;
+		background: url(/images/013.jpg) no-repeat;
 		height: 558px;
 		box-shadow: 0 0 50px #ffbb33;
 		border: 2px solid #ffbb33;
