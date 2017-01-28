@@ -12,13 +12,13 @@ body {
 	border: 0;
 }
 #logo-img {
-	/*background: url(/images/rsz_fox1.png) no-repeat;*/
+	background: url(/images/rsz_fox1.png) no-repeat;
 	width: 108px;
 	height: 70px;
 	margin: 10px 15px 10px 0;
 }
 #logo-img1 {
-	/*background: url(/images/rsz_award.jpg) no-repeat;*/
+	background: url(/images/rsz_award.jpg) no-repeat;
 	width: 30px;
 	height: 30px;
 	/*margin: 10px 15px 10px 0;*/
@@ -80,6 +80,11 @@ body {
 	text-align: right;
 	padding-right: 15px; 
 }
+#del {
+	text-align: center;
+	color: #0096ff;
+	text-shadow: 1px 1px black; 
+}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #0096ff;
 }
@@ -88,7 +93,31 @@ body {
   margin-top: -30px;
 }
 
+#haboutus  {
+	/*ont-size: 1.3em;*/
+	text-align: center;
+	text-shadow: 2px 2px #ffbb33;
+	margin: 20px;
+}
+
+
+#aboutus p {
+	font-size: 1.3em;
+	text-align: center;
+	text-shadow: 1px 1px #ffbb33;
+
+}
+
 /*End of Header*/
+
+/* The award page*/
+.awardH {
+	/*ont-size: 1.3em;*/
+	text-align: center;
+	text-shadow: 2px 2px #ffbb33;
+	margin: 20px;
+}
+/*The end of award page*/
 
 /*Footoer Beigging*/
 .panel-footer {
@@ -111,7 +140,7 @@ panel-footer div.row {
 #hours, #address {
   line-height: 2;
 }
-#hours > span, #address > span {
+#hours > span, #address > span, #testimonials > span {
   font-size: 1.3em;
 }
 #address p {
@@ -172,6 +201,18 @@ box-shadow: 0 1px 5px 1px #cccccc;
 #div-inmain-content{
 	color: #ffbb33;
 }
+.award-tile {
+	position: relative;
+	border: 2px solid #ffbb33;
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto 15px;
+	box-shadow: 0 0 50px #ffbb33;
+	border: 2px solid #ffbb33; 
+
+}
+
 .category-tile {
 	position: relative;
 	border: 2px solid #ffbb33;
@@ -253,7 +294,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.jumbotron {
-		background: url(/images/013.jpg);
+		background: url(/images/rsz_013.jpg);
 		height: 675px;
 		box-shadow: 0 0 50px #ffbb33;
 		border: 2px solid #ffbb33;
@@ -264,13 +305,13 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    /*background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
+    background: url('/images/rsz_fox1.png') no-repeat;
+    width: 110px;
     height: 100px;
-    margin: 5px 5px 5px 0;*/
+    margin: 5px 5px 5px 0;
   }
   .jumbotron {
-		background: url(/images/013.jpg) no-repeat;
+		background: url(/images/rsz_013.jpg) no-repeat;
 		height: 558px;
 		box-shadow: 0 0 50px #ffbb33;
 		border: 2px solid #ffbb33;
@@ -351,6 +392,17 @@ h3.menu-item-title {
   .menu-item-description {
   	text-align: center;
   }
+  .award-tile {
+	position: relative;
+	border: 2px solid #ffbb33;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+	box-shadow: 0 0 50px #ffbb33;
+	border: 2px solid #ffbb33; 
+
+}
 }
 @media (max-width: 497px){
 	.navbar-brand h1 {
