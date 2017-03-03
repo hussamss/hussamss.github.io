@@ -20,7 +20,9 @@ $('#collapsable-nav li a').on('click', function(e){
 	// document.write(nameofClass);
 	$('.well').remove();
 	$('#edu').load(url + ' #eduPage').hide().fadeIn('1500');
-
+	if(screenWidth < 768 ){
+			$('#collapsable-nav').collapse('hide')
+		}
 });
 
 // $('#navbarToggle').click(function () {
